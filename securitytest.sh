@@ -3,7 +3,7 @@
 creds="security:kk-#k-yg9wiULV&"
 
 #Set random sleep up to 5 seconds between tests
-random=$(echo $(( $RANDOM % 5 + 1 )))
+random=$(echo $(( $RANDOM % 35 + 1 )))
 
 #Zscaler Security Test Sites
 zurl1="http://securitytest.zsdemo.com/malicious/archive/eicar_enc.zip"
