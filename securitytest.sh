@@ -1,6 +1,6 @@
 #/bin/bash
 #securitytest site credentials for basic auth
-creds="security:kk-#k-yg9wiULV&"
+creds=""
 
 #Set random sleep up to 5 seconds between tests
 random=$(echo $(( $RANDOM % 35 + 1 )))
