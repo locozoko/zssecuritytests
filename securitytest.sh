@@ -197,104 +197,84 @@ echo "Starting additional security tests. This will take several minutes..."
 
 sleep $random 
 curl -s $badurl1 \
--u "$creds" \
 > /dev/null
 
 sleep $random 
 curl -s $badurl2 \
--u "$creds" \
 > /dev/null
 
 sleep $random 
 curl -s $badurl3 \
--u "$creds" \
 > /dev/null
 
 sleep $random 
 curl -s $badurl4 \
--u "$creds" \
 > /dev/null
 
 sleep $random 
 curl -s $badurl5 \
--u "$creds" \
 > /dev/null
 
 sleep $random 
 curl -s $badurl6 \
--u "$creds" \
 > /dev/null
 
 sleep $random 
 curl -s $badurl7 \
--u "$creds" \
 > /dev/null
 
 sleep $random 
 curl -s $badurl8 \
--u "$creds" \
 > /dev/null
 
 echo "Starting random website tests. This will take several minutes..."
 
 sleep $random 
 curl -s $randomurl1 \
--u "$creds" \
 > /dev/null
 
 sleep $random 
 curl -s $randomurl2 \
--u "$creds" \
 > /dev/null
 
 sleep $random 
 curl -s $randomurl3 \
--u "$creds" \
 > /dev/null
 
 sleep $random 
 curl -s $randomurl4 \
--u "$creds" \
 > /dev/null
 
 sleep $random 
 curl -s $randomurl5 \
--u "$creds" \
 > /dev/null
 
 sleep $random 
 curl -s $randomurl6 \
--u "$creds" \
 > /dev/null
 
 sleep $random 
 curl -s $randomurl7 \
--u "$creds" \
 > /dev/null
 
 sleep $random 
 curl -s $randomurl8 \
--u "$creds" \
 > /dev/null
 
 sleep $random 
 curl -s $randomurl9 \
--u "$creds" \
 > /dev/null
 
 sleep $random 
 curl -s $randomurl10 \
--u "$creds" \
 > /dev/null
 
 sleep $random 
 curl -s $randomurl11 \
--u "$creds" \
 > /dev/null
 
 sleep $random 
 curl -s $randomurl12 \
--u "$creds" \
 > /dev/null
 
 done
