@@ -53,7 +53,9 @@ randomurl7="https://wordpress.com"
 randomurl8="https://www.intuit.com"
 randomurl9="https://reddit.com"
 randomurl10="https://www.quora.com"
-
+randomurl11="https://www.youtube.com/watch?v=WKjDYE73p3w"
+randomurl12="https://www.youtube.com/watch?v=1KLbE243dLY
+"
 # Start tests with curl
 
 while true 
@@ -284,4 +286,15 @@ sleep $random
 curl -s $randomurl10 \
 -u "$creds" \
 > /dev/null
+
+sleep $random 
+curl -s $randomurl11 \
+-u "$creds" \
+> /dev/null
+
+sleep $random 
+curl -s $randomurl12 \
+-u "$creds" \
+> /dev/null
+
 done
